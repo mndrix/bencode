@@ -1,6 +1,6 @@
 name(bencode).
 version('0.0.1').
-title('Bencode parser and serialization').
+title('Bencoding from BitTorrent protocol').
 author('Michael Hendricks','michael@ndrix.org').
 packager('Michael Hendricks','michael@ndrix.org').
 maintainer('Michael Hendricks','michael@ndrix.org').

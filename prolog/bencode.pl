@@ -6,8 +6,9 @@
 %%	bencode(?Term, ?Codes) is semidet.
 %
 %	True if Codes is the bencoding of Term.  In Term, atoms represent
-%	byte strings.  Sorted lists of =|Key-Value|= pairs represent
-%	dictionaries.  Integers and lists represent themselves.
+%	byte strings.  Lists of =|Key-Value|= pairs, sorted by
+%	=Key= represent	dictionaries.  Integers and lists represent
+%	themselves.
 bencode(Term, Codes) :-
     phrase(bval(Term), Codes).
 
